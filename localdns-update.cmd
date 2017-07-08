@@ -1,5 +1,5 @@
 @ECHO OFF
-C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.conf --directory-prefix="C:\localdns\unbound"
+REM C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.conf --directory-prefix="C:\localdns\unbound"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.blacklist.ips.conf --directory-prefix="C:\localdns\unbound"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.local-zone.blacklist.domains.conf --directory-prefix="C:\localdns\unbound"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.local-zone.hosts.conf --directory-prefix="C:\localdns\unbound"
