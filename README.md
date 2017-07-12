@@ -26,7 +26,7 @@
 |[unbound-1.6.4-w32.zip](https://www.unbound.net/downloads/unbound-1.6.4-w32.zip)|[unbound-1.6.4.zip](https://www.unbound.net/downloads/unbound-1.6.4.zip)|`C:\localdns\unbound\`|
 |[nircmd.zip](http://www.nirsoft.net/utils/nircmd.zip)|[nircmd-x64.zip](http://www.nirsoft.net/utils/nircmd-x64.zip)|`C:\localdns\`|
 |[wget-1.11.4-x86.zip](http://nebm.ist.utl.pt/~glopes/wget/wget-1.11.4-x86.zip)|[wget-1.11.4-x64.zip](http://nebm.ist.utl.pt/~glopes/wget/wget-1.11.4-x64.zip)|`C:\localdns\`|
-|[BIND9.11.1-P2.x86.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1-P2.x86.zip)|[BIND9.11.1-P2.x64.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1-P2.x64.zip)|`C:\localdns\bind9\`|
+|[BIND9.11.1-P3.x86.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1-P3.x86.zip)|[BIND9.11.1-P3.x64.zip](https://ftp.isc.org/isc/bind9/cur/9.11/BIND9.11.1-P3.x64.zip)|`C:\localdns\bind9\`|
 
 * 下载[配置文件](https://github.com/CNMan/unbound.conf/archive/master.zip)，解压`unbound`目录中的文件到`C:\localdns\unbound\`，解压`dnscrypt-proxy`目录中的文件到`C:\localdns\dnscrypt-proxy\`
 
@@ -54,7 +54,7 @@
 
 * 可对局域网或公网服务(需搭建在国内服务器上，否则仍有污染)
 
-* 主要配置文件每四小时与上游项目同步更新一次；傻瓜包[localdns_32bit.zip](https://dl.cnlic.com/localdns_32bit.zip)和[localdns_64bit.zip](https://dl.cnlic.com/localdns_64bit.zip)每天更新一次
+* 主要配置文件每四小时与上游项目同步更新一次；傻瓜包每天更新一次
 
 * 常用hosts域名配置在`unbound.local-zone.hosts.conf`
 
