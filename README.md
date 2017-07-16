@@ -60,9 +60,9 @@
 
 * 域名黑名单配置在`unbound.local-zone.blacklist.domains.conf`和`dnscrypt-blacklist-domains.txt`
 
-* IP黑名单配置在`unbound.blacklist.ips.conf`和`dnscrypt-blacklist-ips.txt`，[烦请帮忙收集各地运营商的bogus nxdomain ip](https://github.com/CNMan/unbound.conf/issues/11)
+* IP黑名单配置在`unbound.blacklist.ips.conf`和`dnscrypt-blacklist-ips.txt`，[烦请帮忙收集各地运营商的bogus nxdomain ip](https://github.com/felixonmars/dnsmasq-china-list/issues/148)
 
-* 国内域名配置在`unbound.forward-zone.China.conf`，默认由114.114.114.114和223.5.5.5解析，可自行替换为当地运营商的DNS服务器
+* 国内域名配置在`unbound.forward-zone.China.conf`，默认由114.114.114.114、223.5.5.5和119.29.29.29解析，可自行替换为当地运营商的DNS服务器
 
 * 其他域名由监听在9999端口的DNSCrypt负责解析
 
